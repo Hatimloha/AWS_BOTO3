@@ -44,8 +44,8 @@ sudo apt-get install python3-pip -y
 python3 --version
 ```
 
+## Install python3-venv if you don't have it
 ```shell
-# Install python3-venv if you don't have it
 sudo apt-get install python3-venv -y
 
 # Create a new virtual environment
@@ -58,10 +58,12 @@ source myenv/bin/activate
 pip install boto3
 ```
 
+## After activating the virtual environment, you can run your script:
 ```shell
 python ec2.py
 ```
 
+## To deactivate the virtual environment when done:
 ```shell
 deactivate
 ```

@@ -56,11 +56,10 @@ source myenv/bin/activate
 
 # Install Boto3 within the virtual environment
 pip install boto3
-
 ```
-python ec2.py
-```shell
 
+```shell
+python ec2.py
 ```
 
 ```shell

@@ -43,15 +43,6 @@ sudo apt-get install python3-pip -y
 # Verify the installation:
 python3 --version
 ```
-## Install pip for Python 3:
-```shell
-sudo apt-get install python3-pip -y
-
-# Verify pip installation:
-python3 --version
-```
-
-
 
 ```shell
 # Install python3-venv if you don't have it
